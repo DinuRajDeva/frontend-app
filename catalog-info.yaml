@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: frontend-app
+  description: Frontend UI
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: your-org/frontend-app
+spec:
+  type: website
+  lifecycle: production
+  owner: team-frontend
+  system: ecommerce-platform
+  dependsOn:
+    - component:default/backend-service
