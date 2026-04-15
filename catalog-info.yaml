@@ -5,7 +5,7 @@ metadata:
   description: Frontend UI
   annotations:
     backstage.io/techdocs-ref: dir:.
-    github.com/project-slug: your-org/frontend-app
+    github.com/project-slug: DinuRajDeva/frontend-app
 spec:
   type: website
   lifecycle: production
